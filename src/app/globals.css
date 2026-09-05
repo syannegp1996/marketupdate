@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0b1120;
+}
+
+.prose-article h2 {
+  @apply text-xl font-semibold text-white mt-8 mb-3;
+}
+
+.prose-article h3 {
+  @apply text-lg font-semibold text-white mt-6 mb-2;
+}
+
+.prose-article p {
+  @apply text-slate-300 leading-relaxed mb-4;
+}
+
+.prose-article ul {
+  @apply list-disc list-inside text-slate-300 mb-4 space-y-1;
+}
+
+.prose-article a {
+  @apply text-brand-accent underline underline-offset-2;
+}
+
+.prose-article strong {
+  @apply text-white;
+}
